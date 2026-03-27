@@ -1,11 +1,379 @@
-<h1 style="font-size:100px; text-align:center;">Enciclopedia</h1>
-<h2 style="font-size:75px; text-align:center;"> graphic card</h2>
-<p style="font-size:25px; text-align:center;"> there is all information about all latest and best performing graphic cards <br> you have <br>reached sam</p>
-<hr>
-<p style="font-size:25px; text-align:center"> so when we discuss about performance graphics all of this depends on your graphic card </p>
-<hr>
-<p2> graphic cards majorly made up buy nvidia </p2>
-<br>
-<hr>
-<h1 style="font-size:100px; text-align:center;"> Enciclopedia</h1>
-<h2 style="font-size:75px; text-align:center;"> graphic card</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPU Encyclopedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">GPU<span>pedia</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#nvidia">NVIDIA</a></li>
+    <li><a href="#amd">AMD</a></li>
+    <li><a href="#intel">Intel</a></li>
+  </ul>
+  <div class="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>The <em>Graphics Card</em><br>Encyclopedia</h1>
+  <p>Every spec. Every detail. All in one place.</p>
+  <div class="hero-badge">10 cards · 3 brands · all generations</div>
+</section>
+
+<div class="filter-bar">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="nvidia">NVIDIA</button>
+  <button class="filter-btn" data-filter="amd">AMD</button>
+  <button class="filter-btn" data-filter="intel">Intel</button>
+</div>
+
+<div class="grid-wrapper">
+  <div class="gpu-grid">
+
+    <div class="gpu-card" data-brand="nvidia" onclick="location.href='rtx4090.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #0f1a0a 0%, #111 100%);">
+        <div class="card-visual-text">4090</div>
+        <div class="card-brand-tag nvidia-bg">NVIDIA</div>
+        <div class="card-tier">Flagship</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">GeForce RTX 4090</div>
+        <div class="card-gen">Ada Lovelace · 2022</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">24GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR6X</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">450W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $1,599
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gpu-card" data-brand="nvidia" onclick="location.href='rtx4080super.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #0f1a0a 0%, #111 100%);">
+        <div class="card-visual-text">4080S</div>
+        <div class="card-brand-tag nvidia-bg">NVIDIA</div>
+        <div class="card-tier">High-End</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">GeForce RTX 4080 Super</div>
+        <div class="card-gen">Ada Lovelace · 2024</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">16GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR6X</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">320W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $999
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gpu-card" data-brand="nvidia" onclick="location.href='rtx4070tisuper.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #0f1a0a 0%, #111 100%);">
+        <div class="card-visual-text">4070Ti</div>
+        <div class="card-brand-tag nvidia-bg">NVIDIA</div>
+        <div class="card-tier">High-End</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">RTX 4070 Ti Super</div>
+        <div class="card-gen">Ada Lovelace · 2024</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">16GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR6X</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">285W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $799
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gpu-card" data-brand="nvidia" onclick="location.href='rtx3090ti.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #0f1a0a 0%, #111 100%);">
+        <div class="card-visual-text">3090Ti</div>
+        <div class="card-brand-tag nvidia-bg">NVIDIA</div>
+        <div class="card-tier">Legacy</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">GeForce RTX 3090 Ti</div>
+        <div class="card-gen">Ampere · 2022</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">24GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR6X</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">450W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $1,999
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gpu-card" data-brand="nvidia" onclick="location.href='rtx4060ti.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #0f1a0a 0%, #111 100%);">
+        <div class="card-visual-text">4060Ti</div>
+        <div class="card-brand-tag nvidia-bg">NVIDIA</div>
+        <div class="card-tier">Mid-Range</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">GeForce RTX 4060 Ti</div>
+        <div class="card-gen">Ada Lovelace · 2023</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">16GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR6</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">165W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $499
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gpu-card" data-brand="amd" onclick="location.href='rx7900xtx.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #1a0a0a 0%, #111 100%);">
+        <div class="card-visual-text">7900XTX</div>
+        <div class="card-brand-tag amd-bg">AMD</div>
+        <div class="card-tier">Flagship</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Radeon RX 7900 XTX</div>
+        <div class="card-gen">RDNA 3 · 2022</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">24GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR6</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">355W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $999
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gpu-card" data-brand="amd" onclick="location.href='rx7800xt.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #1a0a0a 0%, #111 100%);">
+        <div class="card-visual-text">7800XT</div>
+        <div class="card-brand-tag amd-bg">AMD</div>
+        <div class="card-tier">Mid-Range</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Radeon RX 7800 XT</div>
+        <div class="card-gen">RDNA 3 · 2023</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">16GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR6</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">263W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $499
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gpu-card" data-brand="amd" onclick="location.href='rx6700xt.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #1a0a0a 0%, #111 100%);">
+        <div class="card-visual-text">6700XT</div>
+        <div class="card-brand-tag amd-bg">AMD</div>
+        <div class="card-tier">Mid-Range</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Radeon RX 6700 XT</div>
+        <div class="card-gen">RDNA 2 · 2021</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">12GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR6</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">230W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $479
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gpu-card" data-brand="intel" onclick="location.href='arca770.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #080f1a 0%, #111 100%);">
+        <div class="card-visual-text">A770</div>
+        <div class="card-brand-tag intel-bg">Intel</div>
+        <div class="card-tier">Budget-Mid</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Arc A770</div>
+        <div class="card-gen">Alchemist · 2022</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">16GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR6</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">225W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $349
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gpu-card" data-brand="nvidia" onclick="location.href='gtx1080ti.html'">
+      <div class="card-visual" style="background: linear-gradient(135deg, #0f1a0a 0%, #111 100%);">
+        <div class="card-visual-text">1080Ti</div>
+        <div class="card-brand-tag nvidia-bg">NVIDIA</div>
+        <div class="card-tier">Classic</div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">GeForce GTX 1080 Ti</div>
+        <div class="card-gen">Pascal · 2017</div>
+        <div class="card-specs">
+          <div class="spec-chip">
+            <span class="val">11GB</span>
+            <span class="lbl">VRAM</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">GDDR5X</span>
+            <span class="lbl">Type</span>
+          </div>
+          <div class="spec-chip">
+            <span class="val">250W</span>
+            <span class="lbl">TDP</span>
+          </div>
+        </div>
+        <div class="card-price">
+          <div class="price">
+            $699
+            <span class="msrp">MSRP at launch</span>
+          </div>
+          <span class="view-more">Details →</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="footer">
+  GPUpedia · For enthusiasts, by enthusiasts · Data sourced from official specs
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
