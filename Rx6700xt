@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RX 6700 XT – GPUpedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<nav>
+  <a href="index.html" class="nav-logo">GPU<span>pedia</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#nvidia">NVIDIA</a></li>
+    <li><a href="index.html#amd">AMD</a></li>
+    <li><a href="index.html#intel">Intel</a></li>
+  </ul>
+  <div class="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+ 
+<section class="detail-hero" style="background: linear-gradient(135deg, #0c0c0c 0%, #1a0a0a 100%);">
+  <div class="detail-hero-bg">6700XT</div>
+  <div class="detail-hero-inner">
+    <a href="index.html" class="back-btn">Back to all GPUs</a>
+    <div class="detail-brand-row">
+      <span class="brand-pill amd-bg">AMD</span>
+      <span class="tier-pill">Mid-Range · RDNA 2</span>
+    </div>
+    <div class="detail-name" style="color: #ed1c24;">Radeon RX 6700 XT</div>
+    <div class="detail-arch">RDNA 2 · Navi 22 · TSMC 7nm · Released Mar 18, 2021</div>
+    <div class="quick-stats">
+      <div class="qs-card">
+        <div class="qs-val">12GB</div>
+        <div class="qs-lbl">VRAM</div>
+      </div>
+      <div class="qs-card">
+        <div class="qs-val">2560</div>
+        <div class="qs-lbl">Stream Procs</div>
+      </div>
+      <div class="qs-card">
+        <div class="qs-val">2581</div>
+        <div class="qs-lbl">Boost MHz</div>
+      </div>
+      <div class="qs-card">
+        <div class="qs-val">230W</div>
+        <div class="qs-lbl">TDP</div>
+      </div>
+      <div class="qs-card">
+        <div class="qs-val">$479</div>
+        <div class="qs-lbl">MSRP</div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<div class="detail-content">
+ 
+  <div class="note-tag">Verdict</div>
+  <div class="verdict-box">
+    <p>The RX 6700 XT was AMD's mid-range effort in RDNA 2, and it aged pretty well. The Navi 22 die on 7nm, 2560 stream processors, and 96MB of Infinity Cache make it a genuinely solid 1080p and 1440p GPU. The 12GB GDDR6 on a 192-bit bus is compensated heavily by that Infinity Cache. At $479 MSRP it was competitive with the RTX 3070, and in rasterization it kept up reasonably well. In 2024-2025 it can still handle 1440p gaming at medium-high settings in most titles. A good used card pickup today if the price is right.</p>
+  </div>
+ 
+  <div class="section-title">GPU Core</div>
+  <div class="specs-grid">
+    <div class="spec-block">
+      <h3>Architecture & Die</h3>
+      <div class="spec-row"><span class="s-key">Architecture</span><span class="s-val">RDNA 2</span></div>
+      <div class="spec-row"><span class="s-key">GPU Die</span><span class="s-val">Navi 22</span></div>
+      <div class="spec-row"><span class="s-key">Process Node</span><span class="s-val">TSMC 7nm</span></div>
+      <div class="spec-row"><span class="s-key">Die Size</span><span class="s-val">335.7 mm²</span></div>
+      <div class="spec-row"><span class="s-key">Transistors</span><span class="s-val">17.2 billion</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Shader Units</h3>
+      <div class="spec-row"><span class="s-key">Stream Processors</span><span class="s-val">2,560</span></div>
+      <div class="spec-row"><span class="s-key">Compute Units</span><span class="s-val">40</span></div>
+      <div class="spec-row"><span class="s-key">TMUs</span><span class="s-val">160</span></div>
+      <div class="spec-row"><span class="s-key">ROPs</span><span class="s-val">64</span></div>
+      <div class="spec-row"><span class="s-key">Ray Accelerators</span><span class="s-val">40 (1st Gen)</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Clock Speeds</h3>
+      <div class="spec-row"><span class="s-key">Base Clock</span><span class="s-val">2321 MHz</span></div>
+      <div class="spec-row"><span class="s-key">Game Clock</span><span class="s-val">2424 MHz</span></div>
+      <div class="spec-row"><span class="s-key">Boost Clock</span><span class="s-val">2581 MHz</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Cache</h3>
+      <div class="spec-row"><span class="s-key">L1 Cache</span><span class="s-val">128 KB per CU</span></div>
+      <div class="spec-row"><span class="s-key">Infinity Cache (L2)</span><span class="s-val">96 MB</span></div>
+    </div>
+  </div>
+ 
+  <div class="section-title">Memory</div>
+  <div class="specs-grid">
+    <div class="spec-block">
+      <h3>Memory Config</h3>
+      <div class="spec-row"><span class="s-key">VRAM</span><span class="s-val">12 GB</span></div>
+      <div class="spec-row"><span class="s-key">Memory Type</span><span class="s-val">GDDR6</span></div>
+      <div class="spec-row"><span class="s-key">Memory Bus</span><span class="s-val">192-bit</span></div>
+      <div class="spec-row"><span class="s-key">Memory Bandwidth</span><span class="s-val">384 GB/s</span></div>
+      <div class="spec-row"><span class="s-key">Memory Speed</span><span class="s-val">16 Gbps</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Compute</h3>
+      <div class="spec-row"><span class="s-key">FP32 Performance</span><span class="s-val">13.21 TFLOPS</span></div>
+      <div class="spec-row"><span class="s-key">FP16 Performance</span><span class="s-val">26.42 TFLOPS</span></div>
+    </div>
+  </div>
+ 
+  <div class="section-title">Power & System</div>
+  <div class="specs-grid">
+    <div class="spec-block">
+      <h3>Power Requirements</h3>
+      <div class="spec-row"><span class="s-key">TDP (TBP)</span><span class="s-val">230W</span></div>
+      <div class="spec-row"><span class="s-key">Power Connector</span><span class="s-val">1× 8-pin + 1× 6-pin</span></div>
+      <div class="spec-row"><span class="s-key">Min PSU</span><span class="s-val">650W</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Board & Connectivity</h3>
+      <div class="spec-row"><span class="s-key">Interface</span><span class="s-val">PCIe 4.0 x16</span></div>
+      <div class="spec-row"><span class="s-key">Display Outputs</span><span class="s-val">3× DP 1.4, 1× HDMI 2.1</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Physical</h3>
+      <div class="spec-row"><span class="s-key">Slot Width</span><span class="s-val">2.5-slot</span></div>
+      <div class="spec-row"><span class="s-key">DirectX</span><span class="s-val">12 Ultimate</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Features</h3>
+      <div class="spec-row"><span class="s-key">Upscaling</span><span class="s-val">FSR 1.0 / 2.0</span></div>
+      <div class="spec-row"><span class="s-key">Smart Access Memory</span><span class="s-val">Yes</span></div>
+      <div class="spec-row"><span class="s-key">Encoder</span><span class="s-val">H.265 / H.264</span></div>
+    </div>
+  </div>
+ 
+  <div class="section-title">Relative Performance</div>
+  <div class="perf-section">
+    <div class="perf-bars">
+      <div class="perf-bar-item">
+        <div class="perf-label">4K Gaming</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 36%"></div></div>
+        <div class="bar-score">36%</div>
+      </div>
+      <div class="perf-bar-item">
+        <div class="perf-label">1440p Gaming</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 50%"></div></div>
+        <div class="bar-score">50%</div>
+      </div>
+      <div class="perf-bar-item">
+        <div class="perf-label">1080p Gaming</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 62%"></div></div>
+        <div class="bar-score">62%</div>
+      </div>
+      <div class="perf-bar-item">
+        <div class="perf-label">Used Value</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 82%; background: #00c896;"></div></div>
+        <div class="bar-score" style="color:#00c896">82%</div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+ 
+<footer class="footer">
+  GPUpedia · For enthusiasts, by enthusiasts · Data sourced from official specs
+</footer>
+ 
+<script src="script.js"></script>
+</body>
+</html>
