@@ -7,19 +7,164 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+ 
 <nav>
   <a href="index.html" class="nav-logo">GPU<span>pedia</span></a>
- <ul class="nav-links">
+  <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="index.html#nvidia">NVIDIA</a></li>
     <li><a href="index.html#amd">AMD</a></li>
     <li><a href="index.html#intel">Intel</a></li>
-     </ul>
-
-<div class="hamburger">
-  <span></span><span></span><span></span></div>
+  </ul>
+  <div class="hamburger">
+    <span></span><span></span><span></span>
+  </div>
 </nav>
-
-
-
+ 
+<section class="detail-hero" style="background: linear-gradient(135deg, #0c0c0c 0%, #0f1a0a 100%);">
+  <div class="detail-hero-bg">4060Ti</div>
+  <div class="detail-hero-inner">
+    <a href="index.html" class="back-btn">Back to all GPUs</a>
+    <div class="detail-brand-row">
+      <span class="brand-pill nvidia-bg">NVIDIA</span>
+      <span class="tier-pill">Mid-Range · Ada Lovelace</span>
+    </div>
+    <div class="detail-name" style="color: #76b900;">GeForce RTX 4060 Ti</div>
+    <div class="detail-arch">Ada Lovelace · AD106 · TSMC 4N · Released Jul 18, 2023 (16GB)</div>
+    <div class="quick-stats">
+      <div class="qs-card">
+        <div class="qs-val">16GB</div>
+        <div class="qs-lbl">VRAM</div>
+      </div>
+      <div class="qs-card">
+        <div class="qs-val">4352</div>
+        <div class="qs-lbl">CUDA Cores</div>
+      </div>
+      <div class="qs-card">
+        <div class="qs-val">2535</div>
+        <div class="qs-lbl">Boost MHz</div>
+      </div>
+      <div class="qs-card">
+        <div class="qs-val">165W</div>
+        <div class="qs-lbl">TDP</div>
+      </div>
+      <div class="qs-card">
+        <div class="qs-val">$499</div>
+        <div class="qs-lbl">MSRP</div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<div class="detail-content">
+ 
+  <div class="note-tag">Verdict</div>
+  <div class="verdict-box">
+    <p>The RTX 4060 Ti 16GB is a mid-range card with a controversial trade-off. It uses the small AD106 die with 4352 CUDA cores and features a very narrow 128-bit memory bus, which limits bandwidth to 288 GB/s — that's the main criticism. The saving grace is 32MB of L2 cache that helps offset the thin bus. At 165W it's very efficient, and DLSS 3 with Frame Generation makes it punch above its weight in supported titles. Good for 1080p enthusiast and 1440p mainstream gaming. The low power draw is genuinely useful for smaller builds and cheaper PSUs.</p>
+  </div>
+ 
+  <div class="section-title">GPU Core</div>
+  <div class="specs-grid">
+    <div class="spec-block">
+      <h3>Architecture & Die</h3>
+      <div class="spec-row"><span class="s-key">Architecture</span><span class="s-val">Ada Lovelace</span></div>
+      <div class="spec-row"><span class="s-key">GPU Die</span><span class="s-val">AD106</span></div>
+      <div class="spec-row"><span class="s-key">Process Node</span><span class="s-val">TSMC 4N</span></div>
+      <div class="spec-row"><span class="s-key">Die Size</span><span class="s-val">188 mm²</span></div>
+      <div class="spec-row"><span class="s-key">Transistors</span><span class="s-val">22.9 billion</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Shader Units</h3>
+      <div class="spec-row"><span class="s-key">CUDA Cores</span><span class="s-val">4,352</span></div>
+      <div class="spec-row"><span class="s-key">TMUs</span><span class="s-val">136</span></div>
+      <div class="spec-row"><span class="s-key">ROPs</span><span class="s-val">48</span></div>
+      <div class="spec-row"><span class="s-key">RT Cores (Gen)</span><span class="s-val">34 × 3rd Gen</span></div>
+      <div class="spec-row"><span class="s-key">Tensor Cores (Gen)</span><span class="s-val">136 × 4th Gen</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Clock Speeds</h3>
+      <div class="spec-row"><span class="s-key">Base Clock</span><span class="s-val">2310 MHz</span></div>
+      <div class="spec-row"><span class="s-key">Boost Clock</span><span class="s-val">2535 MHz</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Cache</h3>
+      <div class="spec-row"><span class="s-key">L1 Cache</span><span class="s-val">128 KB per SM</span></div>
+      <div class="spec-row"><span class="s-key">L2 Cache</span><span class="s-val">32 MB</span></div>
+    </div>
+  </div>
+ 
+  <div class="section-title">Memory</div>
+  <div class="specs-grid">
+    <div class="spec-block">
+      <h3>Memory Config</h3>
+      <div class="spec-row"><span class="s-key">VRAM</span><span class="s-val">16 GB</span></div>
+      <div class="spec-row"><span class="s-key">Memory Type</span><span class="s-val">GDDR6</span></div>
+      <div class="spec-row"><span class="s-key">Memory Bus</span><span class="s-val">128-bit ⚠</span></div>
+      <div class="spec-row"><span class="s-key">Memory Bandwidth</span><span class="s-val">288 GB/s</span></div>
+      <div class="spec-row"><span class="s-key">Memory Speed</span><span class="s-val">18 Gbps</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Compute</h3>
+      <div class="spec-row"><span class="s-key">FP32 Performance</span><span class="s-val">22.1 TFLOPS</span></div>
+      <div class="spec-row"><span class="s-key">FP16 Performance</span><span class="s-val">44.2 TFLOPS</span></div>
+      <div class="spec-row"><span class="s-key">INT8 (Tensor)</span><span class="s-val">176.8 TOPS</span></div>
+    </div>
+  </div>
+ 
+  <div class="section-title">Power & System</div>
+  <div class="specs-grid">
+    <div class="spec-block">
+      <h3>Power Requirements</h3>
+      <div class="spec-row"><span class="s-key">TDP (TGP)</span><span class="s-val">165W</span></div>
+      <div class="spec-row"><span class="s-key">Power Connector</span><span class="s-val">1× 16-pin</span></div>
+      <div class="spec-row"><span class="s-key">Min PSU</span><span class="s-val">600W</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Board & Connectivity</h3>
+      <div class="spec-row"><span class="s-key">Interface</span><span class="s-val">PCIe 4.0 x16</span></div>
+      <div class="spec-row"><span class="s-key">Display Outputs</span><span class="s-val">3× DP 1.4a, 1× HDMI 2.1</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Physical</h3>
+      <div class="spec-row"><span class="s-key">Slot Width</span><span class="s-val">2-slot</span></div>
+      <div class="spec-row"><span class="s-key">DirectX</span><span class="s-val">12 Ultimate</span></div>
+    </div>
+    <div class="spec-block">
+      <h3>Features</h3>
+      <div class="spec-row"><span class="s-key">DLSS</span><span class="s-val">3 (Frame Generation)</span></div>
+      <div class="spec-row"><span class="s-key">Ray Tracing</span><span class="s-val">3rd Gen</span></div>
+      <div class="spec-row"><span class="s-key">Resizable BAR</span><span class="s-val">Yes</span></div>
+    </div>
+  </div>
+ 
+  <div class="section-title">Relative Performance</div>
+  <div class="perf-section">
+    <div class="perf-bars">
+      <div class="perf-bar-item">
+        <div class="perf-label">4K Gaming</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 42%"></div></div>
+        <div class="bar-score">42%</div>
+      </div>
+      <div class="perf-bar-item">
+        <div class="perf-label">1440p Gaming</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 52%"></div></div>
+        <div class="bar-score">52%</div>
+      </div>
+      <div class="perf-bar-item">
+        <div class="perf-label">1080p Gaming</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 68%"></div></div>
+        <div class="bar-score">68%</div>
+      </div>
+      <div class="perf-bar-item">
+        <div class="perf-label">Value</div>
+        <div class="bar-track"><div class="bar-fill" style="width: 60%; background: #ffc107;"></div></div>
+        <div class="bar-score" style="color:#ffc107">60%</div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
